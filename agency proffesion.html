@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>AGENCY AS A PROFFESION</title>
+</head>
+<body>
+
+    <div class="topnav">
+      <div class="topnav-right">
+        <div class="dropdown">
+          <a class="dropbtn" href="https://sites.google.com/site/licchristophercbe/Coimbatore?authuser=0">Home</a>
+          <div class="dropdown-content">
+            <a href="https://sites.google.com/site/licchristophercbe/Coimbatore/About_John_Christopher?authuser=0">About Us</a>
+          </div>
+        </div> 
+        <a href="https://sites.google.com/site/licchristophercbe/Why-choose-LIC-Agency-as-career/Apply-NOW?authuser=0">Apply now</a>
+          <a href="https://sites.google.com/site/licchristophercbe/Why-choose-LIC-Agency-as-career?authuser=0">Why Join LIC?</a>
+        </div>
+        </div>
+      </div>
+      
+    
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="file:///C:/Users/John%20Christopher/Documents/Jeevan%20KOVAI/jala%20site/header%20baners/heADER%20-%205.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="file:///C:/Users/John%20Christopher/Documents/Jeevan%20KOVAI/jala%20site/header%20baners/heADER%20-%206.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="file:///C:/Users/John%20Christopher/Documents/Jeevan%20KOVAI/jala%20site/header%20baners/heADER%20-%209.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+
+
+
+<div class="row">
+    
+<div class="column-1">
+        <div class="b-title">
+            <h2>BENEFITS OF BECOMING AN AGENT</h2>
+        </div>
+    </div>
+
+<div class="column">
+<div class="benefits">
+<h2>Independence</h2>
+<p>An agent in LIC is a true entrepreneur. He has the freedom to be his own boss; work as <br> per his choice, choose his own clients and <br> earn as per his needs and all of this without having to make any initial capital investment.</p>
+</div>
+</div><br>
+
+<div class="column">
+    <div class="remuneration">
+    <h2>Attractive Remuneration</h2>
+    <p>LIC takes care of the current earnings and guarantees an earning for the future. <br> What's more, the agent can set his own income targets with a potential to earn as <br> much as he want for the rest of his life.</p>
+    </div>
+    </div>
+</div>
+
+<a class="button button1" href="C:\Users\John Christopher\Documents\JENIMA FOLDER\Coding\My Websites\LIC AGENCY\apply now.html">Apply Here</a>
+<a class="button button2" href="https://sites.google.com/site/licchristophercbe/Coimbatore?authuser=0">Home</a>
+
+<div></div>
+</body>
+</html>
